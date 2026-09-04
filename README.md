@@ -2,7 +2,7 @@
 
 A responsive website for a fine patisserie, built from scratch with HTML, CSS and JavaScript. It presents the shop, its menu by category, a gallery, and location — with an interactive product filter and a Google Maps embed.
 
-**Live:** <!-- adaugă aici linkul de Netlify după publicare, ex: https://amandine-cofetarie.netlify.app -->
+**Live:** https://raulvm7.github.io/Amandine-Cofetarie/
 
 ---
 
