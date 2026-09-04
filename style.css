@@ -356,6 +356,7 @@ header {
 
 
 
+
 .visit-title{
   font-size: 3.2rem;
   margin-bottom: 2rem;
@@ -434,8 +435,19 @@ header {
   font-size: 0.7rem;
 }
 .mapa{
-  width: 500px;
-  height: 600px;
+  width: 100%;
+  max-width: 500px;     /* aici max-width E valid (e CSS) */
+  height: 600px;         /* înălțime fixă */
+  border: none;
+  border-radius: 15px;
+}
+.mapa-container{
+ 
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 @media (max-width: 768px) {
