@@ -1,6 +1,7 @@
 const filtre = document.querySelectorAll(".filter");
 let produse = document.querySelectorAll(".product-card")
-
+const menuBtn = document.getElementById("menuBtn");
+const navRight = document.getElementById("navRight");
 
 filtre.forEach(btn =>{
   btn.addEventListener("click", () => {
@@ -11,6 +12,15 @@ filtre.forEach(btn =>{
   )
 })
 
+
+menuBtn.addEventListener("click", () => {
+  navRight.classList.toggle("open");
+});
+
+// (opțional) închide meniul când apeși pe un link
+navRight.addEventListener("click", () => {
+  navRight.classList.remove("open");
+});
 
 
 filtre.forEach(btn => {
